@@ -3,24 +3,23 @@ input{
 	}
 
 	@font-face {
-  font-family: MacandoFont;
-  src: url(/fonts/MacondoSwashCaps-Regular.eot);
+  font-family: MacondoFont;
+  src: url(fonts/MacondoSwashCaps-Regular.eot);
 }
 
 	@font-face {
-  font-family: MacandoFont;
-  src: url(/fonts/MacondoSwashCaps-Regular.tff);
+  font-family: MacondoFont;
+  src: url(fonts/MacondoSwashCaps-Regular.tff);
 }
 
 body{
 	background-color: #334;
-	font-family: MacandoFont;
+	font-family: MacondoFont;
 	}
 	
 .calc{
 	background-color: aliceBlue;
 	border-radius: 25px;
 	width: 60%;
-	font-family: MacandoFont;
 	}
 	
