@@ -1,27 +1,82 @@
 
 
 @font-face {
-  	font-family: MacondoFont;
-  	src: url(fonts/MacondoSwashCaps-Regular.tff);
+  font-family: Macondo;
+  src: url(fonts/MacondoSwashCaps-Regular.ttf);
+  font-weight: regular;
 }
+
+h1{
+	color: white;
+	font-family: Macondo;	
+	}
 
 body{
 	background-color: #334;
-	font-family: MacondoFont;
+	font-family: Arial;
 	}
 	
 .calc{
 	background-color: aliceBlue;
 	border-radius: 25px;
-	padding: 5px 20pd 5px 20px;
+	padding: 5px 20px 5px 20px;
+	display: inline-block;
 	}
+	
+.caston{
+	color: white;
+	background-color: #334;
+	border-radius: 8px;
+	border: none;
+	width: 150px;
+	padding: 5px;
+
+}
 
 input{
 	background-color: pink;
+	width: 35px;
+	align: center;
+	border-radius: 10px;
+	height: 20px;
+	border: 1px solid magenta;
+	text-align: center;
 	}
+	
+table{
+	border: 1px solid #445;
+	padding: 3px;
+	margin: 3px;
+	border-radius: 10px;
+}
+
+.gauge{
+	width: 30px;
+}
 
 ::placeholder {
 	color: black;
- 	opacity: 1; 
+ 	opacity: 0.65; 
+ 	text-align: center;
+ 	font-family: arial;
+ 	font-size: 14px;
 	}
 	
+footer{
+	position: absolute;
+  	bottom: 0;
+  	width: 100%;
+  	color: aliceBlue;
+  	font-family: Trebuchet MS;
+  	}
+  	
+  button{
+  	width: 60px;
+  	height: 60px;
+  	border-radius: 30px;
+  	background-color: pink;
+  	border: none;
+  	color: magenta;
+  	font-size: 18px;
+  	font-family: Macondo;
+  	}	

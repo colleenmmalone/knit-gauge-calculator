@@ -1,30 +1,46 @@
 <!DOCTYPE html>
 <html>
+
   <head>
+   	<script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+	<title>stitchineer's Knit Gauge Calculator</title>
+    
   </head>
-  <body><center>
+  
+  <body>
+  <center>
+  
+  <h1>Knit Gauge Calculator</h1>
+  
   <div class="calc">
-    <table><tr>
-      your knitted stitches per inch</tr>
-      <td>stitches:<br>
-        <input placeholder="15"></td>
+    <table><tr><td colspan="100%">
+    <font size="4">your knitted stitches per in or cm</font>
+    </td></tr><tr>
+      <td>
+      <center>
+      stitches:<br>
+        <input placeholder="15" id="A1"></td>
       
-        <td>inches:<br>
-        <input placeholder="4"></td>
+        <td><center>width:<br>
+        <input placeholder="4" id="A2"></td>
       </tr>
     </table>
-      gauge:
-      <div class="gauge"></div>
+
       
-  <div>your desired width:
-    <input placeholder="22"><br><br>
-    you should knit this many stitches:
-  <p class="projected">answer here
+  <table><tr><td>your desired width:
+    <input placeholder="22" id="A3"></td></tr></table>
+    <button onclick="calcGauge()">Go!</button><br><br>
+       your gauge:<div class="gauge"></div>
+       <div class="caston"><center>
+    cast on:
+  <p class="projected">this many stitches
     </p> 
-    thank you
+   </div>
+
     </div>
  </div>
+ 
+ <footer>calculator by stitchineer</footer>
   </body>  
 </html>
