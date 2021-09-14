@@ -19,6 +19,10 @@ body{
 
 input{
 	background-color: pink;
-	placeholder-color: black;
+	}
+
+::placeholder {
+	color: black;
+ 	opacity: 1; 
 	}
 	
