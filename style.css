@@ -6,22 +6,45 @@
   font-weight: regular;
 }
 
-h1{
-	color: white;
-	font-family: Macondo;	
+html, body{
+	height: 100%;
 	}
 
 body{
 	background-color: #334;
-	font-family: Arial;
+	font-family: verdana;
+	background-image: url("images/yarn2.jpeg");
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	height: 100%;
+	background-attachment: fixed;
+	
 	}
 	
+h1{
+	color: white;
+	font-family: Macondo;
+	background-color: #333333;
+	opacity: 0.8;
+	padding: 5px;	
+	}
+	
+	
 .calc{
-	background-color: aliceBlue;
+	background-color: #778AA4;
 	border-radius: 25px;
 	padding: 5px 20px 5px 20px;
 	display: inline-block;
+	border: 6px solid #334;
 	}
+	
+	table{
+	border: 1px solid #445;
+	padding: 3px;
+	margin: 3px;
+	border-radius: 10px;
+
+}
 	
 .caston{
 	color: white;
@@ -30,37 +53,33 @@ body{
 	border: none;
 	width: 150px;
 	padding: 5px;
+	margin: 2px;
 
 }
 
+input, ::placeholder{
+ 	font-size: 16px;
+ 	text-align: center;
+	}
+
 input{
-	background-color: pink;
+	background-color: seashell;
 	width: 35px;
 	align: center;
 	border-radius: 10px;
-	height: 20px;
-	border: 1px solid magenta;
-	text-align: center;
+	height: 22px;
+	border: 1px solid coral;
+
 	}
 	
-table{
-	border: 1px solid #445;
-	padding: 3px;
-	margin: 3px;
-	border-radius: 10px;
-}
+::placeholder {
+	color: #444;
+ 	opacity: 0.65; 
+	}
 
 .gauge{
 	width: 30px;
 }
-
-::placeholder {
-	color: black;
- 	opacity: 0.65; 
- 	text-align: center;
- 	font-family: arial;
- 	font-size: 14px;
-	}
 	
 footer{
 	position: absolute;
@@ -70,13 +89,16 @@ footer{
   	font-family: Trebuchet MS;
   	}
   	
-  button{
+
+button{
   	width: 60px;
   	height: 60px;
   	border-radius: 30px;
-  	background-color: pink;
-  	border: none;
-  	color: magenta;
+  	background-color: salmon;
+  	border: 2px solid #557;
+  	color: #557;
   	font-size: 18px;
+  	font-weight: bold;
   	font-family: Macondo;
-  	}	
+  	}
+
