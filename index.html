@@ -14,14 +14,22 @@
   		<div class="calc">
    			<table><tr><td colspan="100%">
 				<font size="4">your knitted stitches per in or cm</font>
-				</td></tr><tr>
+				</td>
+				</tr>
+				<tr>
 				<td>
-				<center>
-				stitches:<br>
-				<input placeholder="15" id="A1"></td>
+					<center>
+					stitches:<br>
+					<input placeholder="15" id="A1">
+				</td>
 	  
 				<td><center>width:<br>
-				<input placeholder="4" id="A2"></td>
+					<input placeholder="4" id="A2">
+					<select id="unitL" value="in">
+        				<option value="in">in</option>
+						<option value="cm">cm</option>
+        			</select>
+        		</td>
 				</tr>
     		</table>
 
@@ -32,17 +40,17 @@
     			</td></tr>
     		</table>
     		
-    		<button onclick="calcGauge()">Go!</button><br><br>
+    		<button id="myButton" class="myButton" onclick="compute()">Go!</button><br><br>
        		
        		
-       		<div class="caston">your gauge is:<br>
-       			<div class="gauge">
+       		<div class="caston">your gauge:
+       			<div class="gauge" id="gauge">
        			</div>
        		</div>
        
-       		<div class="caston"><center>
+       		<div class="caston" id="caston"><center>
     			cast on:
-  				<p class="projected">this many stitches</p> 
+  				<div class="projected" id="projected"></div> 
    			</div>
 
     	</div>

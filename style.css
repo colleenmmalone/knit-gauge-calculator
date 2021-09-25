@@ -84,9 +84,11 @@ button{
   	font-family: Macondo;
   	}
 
-.gauge{
-	width: 30px;
+.gauge, .projected{
+	height: 18px;	
+	padding: 5px;
 	}
+
 	
 footer{
 	position: absolute;
